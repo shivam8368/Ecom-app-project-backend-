@@ -23,15 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'iqlfys_luymme_hqvp-+!iy@xnk2)(m(k=4!_tl4xpr9gqmofs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGIN = True
 
-CORS_ORIGIN_WHITELIST = [
-    'localhost:3000',
-]
+
 
 
 
@@ -174,7 +172,7 @@ REST_FRAMEWORK = {
 
 
 
-
+# AWS s3 configuration
 
 AWS_ACCESS_KEY_ID = 'AKIAWYPWD3IOMBP4E2TN'
 AWS_SECRET_ACCESS_KEY = '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'
