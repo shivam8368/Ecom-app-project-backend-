@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'api.user',
     'api.order',
     'api.payment',
-    'sotorages',
+    'storages',
 
 
 
